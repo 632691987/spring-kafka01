@@ -45,7 +45,7 @@ public class KafkaTopicConfig {
 
     @Bean
     public NewTopic topic2() {
-        return new NewTopic(partitionedTopicName, 6, (short) 1);
+        return new NewTopic(partitionedTopicName, 1, (short) 1);
     }
 
     @Bean
